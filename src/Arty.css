@@ -1,0 +1,45 @@
+.Arty-big {
+    height: 10vh;
+    pointer-events: none;
+}
+
+.Arty-small {
+    height: 3vh;
+    padding: 0% 5vh;
+    pointer-events: none;
+}
+
+.Arty-buffer {
+    display: flex;
+    flex-direction: row;
+    min-height: 3vh;
+    justify-content: center;
+    
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Arty-big, .Arty-small {
+        animation: Arty-logo-spin infinite 10s linear;
+    }
+}
+
+.Arty-header {
+    /* background-color: #143813; */
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+@keyframes Arty-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

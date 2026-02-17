@@ -1,18 +1,30 @@
-import logo from './spookyArty.svg';
 import './App.css';
+import React, { Component } from 'react';
+import Arty from './Arty';
+import Buffer from './ArtyBuffer';
+import Pokegame from './Pokegame';
+import Button from './StateGame';
+import Rolldice from './RollDice';
+import CoinContainer from './CoinContainer';
+import BoxContainer from './BoxContainer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {/* Edit <code>src/App.js</code> and save to reload. */}
-          hello :)
-        </p>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Arty size={"big"}/>
+        <BoxContainer />
+        <Pokegame />
+        <Buffer />
+        <Button />
+        <Buffer />
+        <Rolldice />
+        <Buffer />  
+        <CoinContainer />
+      </div>
+      
+    );
+  }
 }
 
 export default App;
