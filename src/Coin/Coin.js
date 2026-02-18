@@ -7,8 +7,8 @@ class Coin extends Component {
             <div className='Coin'>
                 <img src={this.props.info.imgSrc} alt={this.props.info.side}/>
             </div>
-        );
+            );
     }
-}
-
-export default Coin;
+    
+    
+}export default Coin;

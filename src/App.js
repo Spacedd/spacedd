@@ -1,12 +1,12 @@
 import './App.css';
 import React, { Component } from 'react';
-import Arty from './Arty';
-import Buffer from './ArtyBuffer';
-import Pokegame from './Pokegame';
-import Button from './StateGame';
-import Rolldice from './RollDice';
-import CoinContainer from './CoinContainer';
-import BoxContainer from './BoxContainer';
+import Arty from './Arty/Arty';
+import Buffer from './Arty/ArtyBuffer';
+import Pokegame from './Pokedex/Pokegame';
+import Button from './Stategame/StateGame';
+import Rolldice from './Dice/RollDice';
+import CoinContainer from './Coin/CoinContainer';
+import BoxContainer from './Box/BoxContainer';
 
 class App extends Component {
   render() {

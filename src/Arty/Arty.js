@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './images/spookyArty.svg';
+import logo from '../images/spookyArty.svg';
 import './Arty.css'
 
 class Arty extends Component {

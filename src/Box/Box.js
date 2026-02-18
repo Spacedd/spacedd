@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { choice } from './helpers';
+import { choice } from '../helpers';
 import './Box.css'
 
 class Box extends Component {
