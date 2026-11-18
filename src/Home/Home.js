@@ -23,11 +23,6 @@ function Home() {
           A collection of interactive React projects — games, experiments,
           and demos built for fun and learning.
         </p>
-        <div className="hero-stats">
-          <span><strong>{projects.length}</strong> projects</span>
-          <span><strong>React</strong> stack</span>
-          <span><strong>Open</strong> source</span>
-        </div>
       </section>
 
       {/* Filters */}
@@ -65,7 +60,7 @@ function Home() {
         ))}
       </div>
     <footer className="site-footer">
-        Built with React &nbsp;·&nbsp; Spacedd &nbsp;·&nbsp; 2024
+        Built with React &nbsp;·&nbsp; Spacedd &nbsp;·&nbsp; 2026
       </footer>
     </main>
   );
